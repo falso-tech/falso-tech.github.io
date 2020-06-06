@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96100319-2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'UA-96100319-2');
+        gtag('config', 'UA-96100319-2');
     </script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P7LHPXZ');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P7LHPXZ');</script>
     <!-- End Google Tag Manager -->
 
     <!--- basic page needs
@@ -49,8 +53,8 @@
 
 <body id="top">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7LHPXZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7LHPXZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- preloader
@@ -74,21 +78,21 @@
                     <img src="images/falsotech_3.png" alt="Homepage">
                 </a>
             </div>
-    
+
             <nav class="header-nav-wrap">
                 <ul class="header-main-nav">
                     <li class="current"><a class="smoothscroll" href="#home" title="intro">Intro</a></li>
                     <li><a class="smoothscroll" href="#about" title="about">About</a></li>
                     <li><a class="smoothscroll" href="#features" title="features">Use Cases</a></li>
                     <li><a class="smoothscroll" href="#pricing" title="pricing">Pricing</a></li>
-                    <li><a class="smoothscroll" href="#download" title="download">Download</a></li>	
+                    <li><a class="smoothscroll" href="#download" title="download">Download</a></li>
                 </ul>
-    
+
                 <div class="header-cta">
                     <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">Demo Coming Soon</a>
                 </div>
             </nav> <!-- end header-nav-wrap -->
-    
+
             <a class="header-menu-toggle" href="#"><span>Menu</span></a>
         </div>
 
@@ -97,7 +101,8 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg"
+        data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="shadow-overlay"></div>
 
@@ -105,23 +110,49 @@
 
             <div class="row home-content__main">
 
-                <div class="home-content__left">
+                <div class="col-four home-content__counter">
+                    <h3 id="counter-header">Launching In</h3>
+
+                    <div class="home-content__clock">
+                        <div class="top">
+                            <div class="time days">
+                                34
+                                <span>Days</span>
+                            </div>
+                        </div>
+                        <div class="time hours">
+                            09
+                            <span>H</span>
+                        </div>
+                        <div class="time minutes">
+                            54
+                            <span>M</span>
+                        </div>
+                        <div class="time seconds">
+                            30
+                            <span>S</span>
+                        </div>
+                    </div> <!-- end home-content__clock -->
+                </div>
+
+                <div class="col-eight home-content__right">
                     <h1>
-                    The Trust Lawyer <br>
-                    of the Internet.
+                        The Trust Lawyer <br>
+                        of the Internet.
                     </h1>
-    
+
                     <h3>
-                    First to market with a complete Deepfake detection & integration solution. We thrive to work diligently on technologies that helps restore trust in media.
+                        First to market with a complete Deepfake detection & integration solution. We thrive to work
+                        diligently on technologies that helps restore trust in media.
                     </h3>
-    
+
                     <div class="home-content__btn-wrap">
                         <a href="#download" class="btn btn--primary home-content__btn smoothscroll">
                             Demo Coming Soon
                         </a>
                     </div>
                 </div> <!-- end home-content__left-->
-<!-- 
+                <!-- 
                 <div class="home-content__right">
                     <img src="images/hero-app-screens-800.png" srcset="images/hero-app-screens-800.png 1x, images/hero-app-screens-1600.png 2x">
                 </div> 
@@ -130,18 +161,22 @@
 
             <ul class="home-social">
                 <li>
-                <a href="https://www.linkedin.com/company/falso-tech/"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                    <a href="https://www.linkedin.com/company/falso-tech/"><i class="fab fa-linkedin"
+                            aria-hidden="true"></i><span>LinkedIn</span></a>
                 </li>
                 <li>
-                <a href="https://twitter.com/FalsoTech"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                    <a href="https://twitter.com/FalsoTech"><i class="fab fa-twitter"
+                            aria-hidden="true"></i><span>Twiiter</span></a>
                 </li>
                 <li>
-                <a href="https://github.com/orgs/falso-tech/"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                    <a href="https://github.com/orgs/falso-tech/"><i class="fab fa-github"
+                            aria-hidden="true"></i><span>GitHub</span></a>
                 </li>
                 <li>
-                <a href="https://instagram.com/falso.tech"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                    <a href="https://instagram.com/falso.tech"><i class="fab fa-instagram"
+                            aria-hidden="true"></i><span>Instagram</span></a>
                 </li>
-               <!--  <li>
+                <!--  <li>
                 <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
                 </li> -->
             </ul> <!-- end home-social -->
@@ -151,7 +186,7 @@
         <a href="#about" class="home-scroll smoothscroll">
             <span class="home-scroll__text">Scroll</span>
             <span class="home-scroll__icon"></span>
-        </a> 
+        </a>
 
     </section> <!-- end s-home -->
 
@@ -167,7 +202,9 @@
                 </h1>
                 <p class="lead">
                     What would you do "When seeing may no longer be believing"?</br>
-                    Our mission is to use holistic approach to solve the complex problem of DeepFake content. We want to make the internet a safer & more enjoyable place by using the same technology that disturbs it. We want to ensure:
+                    Our mission is to use holistic approach to solve the complex problem of DeepFake content. We want to
+                    make the internet a safer & more enjoyable place by using the same technology that disturbs it. We
+                    want to ensure:
                 </p>
             </div>
         </div> <!-- end section-header -->
@@ -180,36 +217,40 @@
                     <h3 class="item-title">No disinformation.</h3>
 
                     <p>
-                    With almost 100% increase in malicious DeepFake content over the past year, we want to make sure to curb the spread of misinformation as much as we can.
+                        With almost 100% increase in malicious DeepFake content over the past year, we want to make sure
+                        to curb the spread of misinformation as much as we can.
                     </p>
-                </div>  <!-- end about-desc__slide -->
+                </div> <!-- end about-desc__slide -->
 
                 <div class="about-desc__slide">
                     <h3 class="item-title">Brand Safety.</h3>
 
                     <p>
-                    With the competition so vigorous, defmaing brands and people are increasing at an alarming rate. We plan to safeguard the integrety of organizations and brands.
+                        With the competition so vigorous, defmaing brands and people are increasing at an alarming rate.
+                        We plan to safeguard the integrety of organizations and brands.
                     </p>
-                </div>  <!-- end about-desc__slide -->
+                </div> <!-- end about-desc__slide -->
 
                 <div class="about-desc__slide">
                     <h3 class="item-title">A safe civil society.</h3>
 
                     <p>
-                    We want to reach the end user, educate them about DeepFake content to ensure that the civil society is aware and can safeguard themselves from malicious content.
+                        We want to reach the end user, educate them about DeepFake content to ensure that the civil
+                        society is aware and can safeguard themselves from malicious content.
                     </p>
-                </div>  <!-- end about-desc__slide -->
+                </div> <!-- end about-desc__slide -->
 
                 <div class="about-desc__slide">
                     <h3 class="item-title">Grow Buisnesses.</h3>
 
                     <p>
-                    We understand the creative aspect of DeepFake content. We have artificially generated content library to help buisnesses to generate localized and personalized audio/videos.
+                        We understand the creative aspect of DeepFake content. We have artificially generated content
+                        library to help buisnesses to generate localized and personalized audio/videos.
                     </p>
-                </div>  <!-- end about-desc__slide -->
+                </div> <!-- end about-desc__slide -->
 
             </div> <!-- end about-desc__slider -->
-            
+
         </div> <!-- end about-desc -->
 
     </section> <!-- end s-about -->
@@ -220,11 +261,12 @@
     <section id="about-how" class="s-about-how">
 
         <div class="row">
-           <div class="col-full video-bg" data-aos="fade-up">
+            <div class="col-full video-bg" data-aos="fade-up">
 
                 <div class="shadow-overlay"></div>
 
-                <a class="btn-video" href="https://player.vimeo.com/video/14592941?color=00a650&title=0&byline=0&portrait=0" data-lity>
+                <a class="btn-video"
+                    href="https://player.vimeo.com/video/14592941?color=00a650&title=0&byline=0&portrait=0" data-lity>
                     <span class="video-icon"></span>
                 </a>
 
@@ -244,53 +286,61 @@
                         <span class="item-stats__title">
                             Stay Tuned.
                         </span>
-                    </div> 
+                    </div>
                 </div>
-           </div> <!-- end video-bg -->
+            </div> <!-- end video-bg -->
         </div>
 
         <div class="row process-wrap">
 
             <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    How we do it?
-                </h1>
-                <p class="lead">
-                    Iron cuts Iron: We use state-of-the-art Deep Learning algorithms for DeepFake detections.
-                </p>
-            </div>
-        </div> <!-- end section-header -->
+                <div class="col-full">
+                    <h1 class="display-1">
+                        How we do it?
+                    </h1>
+                    <p class="lead">
+                        Iron cuts Iron: We use state-of-the-art Deep Learning algorithms for DeepFake detections.
+                    </p>
+                </div>
+            </div> <!-- end section-header -->
 
             <div class="process" data-aos="fade-up">
                 <div class="process__steps block-1-2 block-tab-full group">
 
                     <div class="col-block step">
                         <h3 class="item-title">Data Prep</h3>
-                        <p>Data collection and preparation is the most important part of our pipeline. We train on a huge collection of publically available dataset and some proprietary sources. Given a video, we extract frames and boxes and we resize them to give the best results. 
-                        </p> 
+                        <p>Data collection and preparation is the most important part of our pipeline. We train on a
+                            huge collection of publically available dataset and some proprietary sources. Given a video,
+                            we extract frames and boxes and we resize them to give the best results.
+                        </p>
                     </div>
 
                     <div class="col-block step">
                         <h3 class="item-title">Face Extractor</h3>
-                        <p>We use image processing and light-weight deep learning face detector to extract faces from images. Besides a bounding box, we also extract 6 keypoints for face landmarks (2x eyes, 2x ears, nose, mouth) which helps in boosting our scores.
-                        </p> 
+                        <p>We use image processing and light-weight deep learning face detector to extract faces from
+                            images. Besides a bounding box, we also extract 6 keypoints for face landmarks (2x eyes, 2x
+                            ears, nose, mouth) which helps in boosting our scores.
+                        </p>
                     </div>
-               
+
                     <div class="col-block step">
                         <h3 class="item-title">Training</h3>
-                        <p>We add some complex augmentations and processing(like, different encoding of face from other part of the image) to our input data to the model to train a classifer. We stack different models by validating the score to achieve best results.
-                        </p> 
+                        <p>We add some complex augmentations and processing(like, different encoding of face from other
+                            part of the image) to our input data to the model to train a classifer. We stack different
+                            models by validating the score to achieve best results.
+                        </p>
                     </div>
 
                     <div class="col-block step">
                         <h3 class="item-title">Insightful Inference</h3>
-                        <p>Easy, fast, Accurate & reliable results. Available API end-points for integration. We have per-frame detection to detect any tampered/generated frames which could change the context of the video. We also have video level analytics to analyse global information of the video.
-                        </p> 
-                    </div>  
+                        <p>Easy, fast, Accurate & reliable results. Available API end-points for integration. We have
+                            per-frame detection to detect any tampered/generated frames which could change the context
+                            of the video. We also have video level analytics to analyse global information of the video.
+                        </p>
+                    </div>
 
                 </div> <!-- end process__steps -->
-           </div> <!-- end process -->
+            </div> <!-- end process -->
         </div> <!-- end about-how -->
 
         <div class="row process-wrap">
@@ -343,10 +393,61 @@
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-1">
+                    How to integrate our private beta?
+                </h1>
+                <p class="lead">
+                    Higher usage demands of Falso technology can be licensed depending on customer’s needs.
+                    We are able to offer our scanner technology via two deployment models: API or SDK.
+                </p>
+            </div>
+        </div>
+
+        <div class="row features block-1-2 block block-m-1-2">
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">API</h3>
+                    <p>Falso Technology provides cloud API that allows online access to its core functionalities via
+                        clean and REST-ful API's. It allows you faster implementation and relieves
+                        you of any development concerns. Falso Technology API can handle a high number of scan
+                        requests and responses in an automated fashion, which is efficient for higher demands of
+                        deepfake detection.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="fa fa-suitcase"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">SDK</h3>
+                    <p>Falso Technology SDK is a toolkit package of our core technology designed to work in an offline
+                        environment.
+                        It is a cost-effective way of obtaining deepfake detection technology that will be used in a
+                        user-controlled
+                        environment with a simple integration process.
+                        Falso Technology allows you faster implementation and relieves you of any development concerns.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1">
                     We look to partner with entities from various verticals.
                 </h1>
                 <p class="lead">
-                    The DeepFake content has it's roots in many verticals and companies/organizations all across the globe are struggling to cope up with it. Here are some of the potential organizations we look to partner with:
+                    The DeepFake content has it's roots in many verticals and companies/organizations all across the
+                    globe are struggling to cope up with it. Here are some of the potential organizations we look to
+                    partner with:
                 </p>
             </div>
         </div> <!-- end section-header -->
@@ -359,7 +460,9 @@
                 </div>
                 <div class="item-feature__text">
                     <h3 class="item-title">Government Agencies.</h3>
-                    <p>DeepFakes are the biggest threat to democracies and Government Agencies. With DeepFake already playing part in USA 2020 and Delhi 2020 elections, it's a threat to national security, politics, and economy
+                    <p>DeepFakes are the biggest threat to democracies and Government Agencies. With DeepFake already
+                        playing part in USA 2020 and Delhi 2020 elections, it's a threat to national security, politics,
+                        and economy
                     </p>
                 </div>
             </div>
@@ -370,7 +473,8 @@
                 </div>
                 <div class="item-feature__text">
                     <h3 class="item-title">News Organizations.</h3>
-                    <p>Imagine reporting a fake news/video. With so many realistic Deepfake content it's important for News organization to protect the reputation as a reliable source of information.
+                    <p>Imagine reporting a fake news/video. With so many realistic Deepfake content it's important for
+                        News organization to protect the reputation as a reliable source of information.
                     </p>
                 </div>
             </div>
@@ -378,10 +482,11 @@
             <div class="col-block item-feature" data-aos="fade-up">
                 <div class="item-feature__icon">
                     <i class="icon-shield"></i>
-                </div>  
+                </div>
                 <div class="item-feature__text">
                     <h3 class="item-title">Porn Industry.</h3>
-                    <p>96% of all deepfake videos were pornographic. There are numerious examples of defaming and celebraty porn videos. It's a challenge for porn industry to track such videos.
+                    <p>96% of all deepfake videos were pornographic. There are numerious examples of defaming and
+                        celebraty porn videos. It's a challenge for porn industry to track such videos.
                     </p>
                 </div>
             </div>
@@ -392,7 +497,8 @@
                 </div>
                 <div class="item-feature__text">
                     <h3 class="item-title">Social Media Companies.</h3>
-                    <p>The end user may not be aware of complex DeepFake technologies and hence it absolutely vital to detect Deepfake in User generated content and prevent sharing misinformation.
+                    <p>The end user may not be aware of complex DeepFake technologies and hence it absolutely vital to
+                        detect Deepfake in User generated content and prevent sharing misinformation.
                     </p>
                 </div>
             </div>
@@ -403,80 +509,26 @@
                 </div>
                 <div class="item-feature__text">
                     <h3 class="item-title">Law Makers.</h3>
-                    <p>The DeepFake technology is so new that the Law Makers and police struggle to identify it, let alone making cyber laws and regulations. A strong detection algorithm is required as a base to formulate laws around malicious DeepFake.
+                    <p>The DeepFake technology is so new that the Law Makers and police struggle to identify it, let
+                        alone making cyber laws and regulations. A strong detection algorithm is required as a base to
+                        formulate laws around malicious DeepFake.
                     </p>
                 </div>
             </div>
-    
+
             <div class="col-block item-feature" data-aos="fade-up">
                 <div class="item-feature__icon">
                     <i class="icon-wallet"></i>
                 </div>
                 <div class="item-feature__text">
                     <h3 class="item-title">NGOs</h3>
-                    <p>We are always open to partner/share-tech with NGOs working in exposing Deepfakes to counter misinformation, stop cyber-bulling and stop DeepFake pornography content.
+                    <p>We are always open to partner/share-tech with NGOs working in exposing Deepfakes to counter
+                        misinformation, stop cyber-bulling and stop DeepFake pornography content.
                     </p>
                 </div>
             </div>
 
         </div> <!-- end features -->
-
-        <div class="testimonials-wrap" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">How to integrate our private beta!</h2>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full slick-slider testimonials__slider">
-                    <div class="header-cta">
-                    <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">Demo Coming Soon</a>
-                </div>
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
-                        
-                        <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium praesentium corpori.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Naruto Uzumaki</span>
-                            <a href="#0" class="testimonials__link">@narutouzumaki</a>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                        
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Sasuke Uchiha</span>
-                            <a href="#0" class="testimonials__link">@sasukeuchiha</a>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Shikamaru Nara</span>
-                            <a href="#0" class="testimonials__link">@shikamarunara</a>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-                    
-                </div> <!-- end testimonials__slider -->
-
-            </div> <!-- end testimonials -->
-
-        </div> <!-- end testimonials-wrap -->
 
     </section> <!-- end s-features -->
 
@@ -488,20 +540,95 @@
         <div class="row section-header align-center" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-1">
-                   Our Simple <br> Straight-Forward Pricing.
+                    Explore our content library.
+                </h1>
+            </div>
+        </div>
+        <div class="row features block-1-2 block block-m-1-2">
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Content</h3>
+                    <p>Falso Technology provides cloud API that allows online access to its core functionalities via
+                        clean and REST-ful API's. It allows you faster implementation and relieves
+                        you of any development concerns. Falso Technology API can handle a high number of scan
+                        requests and responses in an automated fashion, which is efficient for higher demands of
+                        deepfake detection.
+                    </p>
+                </div>
+                <br />
+                <br />
+            </div>
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon" style="visibility:hidden">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="item-feature__text">
+                    <!-- <h3 class="item-title">Illustration</h3>
+                    <p>Falso Technology provides cloud API that allows online access to its core functionalities via
+                        clean and REST-ful API's. It allows you faster implementation and relieves
+                        you of any development concerns. Falso Technology API can handle a high number of scan
+                        requests and responses in an automated fashion, which is efficient for higher demands of
+                        deepfake detection.
+                    </p> -->
+                    <img src="images/app-screen-1400.png" srcset="images/app-screen-600.png 600w, 
+                        images/app-screen-1400.png 1400w, 
+                        images/app-screen-2800.png 2800w" sizes="(max-width: 2800px) 100vw, 2800px"
+                alt="App Screenshots">
+                </div>
+                <br />
+                <br />
+            </div>
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Content</h3>
+                    <p>Falso Technology provides cloud API that allows online access to its core functionalities via
+                        clean and REST-ful API's. It allows you faster implementation and relieves
+                        you of any development concerns. Falso Technology API can handle a high number of scan
+                        requests and responses in an automated fashion, which is efficient for higher demands of
+                        deepfake detection.
+                    </p>
+                </div>
+                <br />
+                <br />
+            </div>
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon" style="visibility:hidden">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="item-feature__text">
+                        <img src="images/app-screen-1400.png" srcset="images/app-screen-600.png 600w, 
+                        images/app-screen-1400.png 1400w, 
+                        images/app-screen-2800.png 2800w" sizes="(max-width: 2800px) 100vw, 2800px"
+                alt="App Screenshots">
+                </div>
+                <br />
+                <br />
+            </div>
+        </div>
+        <!-- <div class="row section-header align-center" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1">
+                    Our Simple <br> Straight-Forward Pricing.
                 </h1>
                 <p class="lead">
-                    Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est. 
-                    Ut quis enim rerum quia assumenda repudiandae non cumque qui. Amet repellat 
+                    Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est.
+                    Ut quis enim rerum quia assumenda repudiandae non cumque qui. Amet repellat
                     omnis ea.
                 </p>
             </div>
-        </div> <!-- end section-header -->
+        </div>  -->
+        <!-- end section-header -->
 
         <div class="row plans block-1-2 block-m-1-2 block-tab-full stack">
 
-            <div class="col-block item-plan" data-aos="fade-up">
-                <div class="item-plan__block"> 
+            <!-- <div class="col-block item-plan" data-aos="fade-up">
+                <div class="item-plan__block">
 
                     <div class="item-plan__top-part">
                         <h3 class="item-plan__title">Free</h3>
@@ -518,13 +645,14 @@
                         </ul>
 
                         <a class="btn btn--primary large full-width" href="#0">Get Started</a>
-                    </div>  
-                
-                </div>
-            </div> <!-- end item-plan -->
+                    </div>
 
-            <div class="col-block item-plan item-plan--popular" data-aos="fade-up">
-                <div class="item-plan__block"> 
+                </div>
+            </div>  -->
+            <!-- end item-plan -->
+
+            <!-- <div class="col-block item-plan item-plan--popular" data-aos="fade-up">
+                <div class="item-plan__block">
 
                     <div class="item-plan__top-part">
                         <h3 class="item-plan__title">Pro Plan</h3>
@@ -542,11 +670,13 @@
 
                         <a class="btn btn--primary large full-width" href="#0">Get Started</a>
                     </div>
-                
-                </div>
-            </div> <!-- end item-plan -->
 
-        </div> <!-- end plans -->
+                </div>
+            </div>  -->
+            <!-- end item-plan -->
+
+            <!-- </div>  -->
+            <!-- end plans -->
 
     </section> <!-- end s-pricing -->
 
@@ -561,8 +691,8 @@
                     Explore our content library.
                 </h1>
                 <p class="lead">
-                    Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est. 
-                    Ut quis enim rerum quia assumenda repudiandae non cumque qui. Amet repellat 
+                    Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est.
+                    Ut quis enim rerum quia assumenda repudiandae non cumque qui. Amet repellat
                     omnis ea.
                 </p>
             </div>
@@ -574,16 +704,14 @@
                     <li><a href="#0" title="" class="badge-appstore">App Store</a></li>
                     <li><a href="#0" title="" class="badge-googleplay">Play Store</a></li>
                 </ul>
-            </div> 
+            </div>
         </div>
 
         <div class="row download-bottom-image" data-aos="fade-up">
-            <img src="images/app-screen-1400.png" 
-                srcset="images/app-screen-600.png 600w, 
+            <img src="images/app-screen-1400.png" srcset="images/app-screen-600.png 600w, 
                         images/app-screen-1400.png 1400w, 
-                        images/app-screen-2800.png 2800w" 
-                sizes="(max-width: 2800px) 100vw, 2800px" 
-                alt="App Screenshots"> 
+                        images/app-screen-2800.png 2800w" sizes="(max-width: 2800px) 100vw, 2800px"
+                alt="App Screenshots">
         </div>
 
     </section> <!-- end s-download -->
@@ -599,7 +727,7 @@
                     Let's Stay In Touch.
                 </h1>
                 <p class="lead">
-                Come Join us in the next Internet Revolution.
+                    Come Join us in the next Internet Revolution.
                 </p>
             </div>
         </div> <!-- end section-header -->
@@ -610,12 +738,13 @@
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
 
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-            
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email"
+                            placeholder="Email Address" required="">
+
                         <input type="submit" name="subscribe" value="Sign Up">
-            
+
                         <label for="mc-email" class="subscribe-message"></label>
-            
+
                     </form>
                 </div>
             </div>
@@ -629,21 +758,27 @@
                 <h4>About falso.tech</h4>
 
                 <p>
-                We are Deep Learning researchers, we represent the same community that created the DeepFake. We create state-of-the-art DeepFake detection algorithm that would help one and all to safeguard our internet and protect the truth. We also explore the creative potential of DeepFake content, spreading the awareness & understanding of DeepFakes to each & everyone. </br>
+                    We are Deep Learning researchers, we represent the same community that created the DeepFake. We
+                    create state-of-the-art DeepFake detection algorithm that would help one and all to safeguard our
+                    internet and protect the truth. We also explore the creative potential of DeepFake content,
+                    spreading the awareness & understanding of DeepFakes to each & everyone. </br>
                 </p>
 
                 <ul class="footer__social">
-                    <li><a href="https://www.linkedin.com/company/falso-tech/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <li><a href="https://www.linkedin.com/company/falso-tech/"><i class="fab fa-linkedin"
+                                aria-hidden="true"></i></a>
                     </li>
                     <li>
-                    <a href="https://twitter.com/FalsoTech"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/FalsoTech"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                    <a href="https://github.com/orgs/falso-tech/"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://github.com/orgs/falso-tech/"><i class="fab fa-github"
+                                aria-hidden="true"></i></a>
                     </li>
                     <li>
-                    <a href="https://instagram.com/falso.tech"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                </li>
+                        <a href="https://instagram.com/falso.tech"><i class="fab fa-instagram"
+                                aria-hidden="true"></i></a>
+                    </li>
                 </ul>
 
 
@@ -669,12 +804,12 @@
                         <h4>Contact Us.</h4>
 
                         <p>
-                        Phone: (+63) 555 1212
+                            Phone: (+63) 555 1212
                         </p>
                         <p>
-                        Need help or have a question? Contact us at: <br>
-                        <a href="mailto:#0" class="footer__mail-link">hello@falso.tech</a>
-                        <a href="mailto:#0" class="footer__mail-link">rishabh@falso.tech</a>
+                            Need help or have a question? Contact us at: <br>
+                            <a href="mailto:#0" class="footer__mail-link">hello@falso.tech</a>
+                            <a href="mailto:#0" class="footer__mail-link">rishabh@falso.tech</a>
                         </p>
                     </div>
 
@@ -682,7 +817,7 @@
             </div>
 
             <div class="col-full ss-copyright">
-                <span>&copy; Copyright falso.tech 2020</span> 
+                <span>&copy; Copyright falso.tech 2020</span>
                 <span>Shoutout to <a href="https://www.styleshout.com/">styleshout</a> for the amazing design</span>
             </div>
 

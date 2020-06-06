@@ -2080,8 +2080,8 @@ input::-moz-focus-inner {
 .home-content {
   z-index: 4;
   display: table-cell;
-  vertical-align: bottom;
-  padding-top: 24.8rem;
+  /* vertical-align: bottom; */
+  padding-top: 20.8rem;
   width: 100%;
   position: relative;
 }
@@ -2131,17 +2131,95 @@ input::-moz-focus-inner {
 }
 
 .home-content__right {
-  z-index: 500;
-  width: 580px;
+  /* z-index: 500;*/
+  /* width: 580px; */
+  /* right: 0; */
+  /* top: 0;  */
+  /* width: calc(100% - (580px + 80px)); */
   position: absolute;
+  padding: 2rem !important;
+  padding-top: 0 !important;
   right: 0;
-  top: 0;
 }
 
 .home-content__right img {
   vertical-align: bottom;
   margin-top: -5.2rem;
 }
+
+/* ------------------------------------------------------------------- 
+ * ## home content timer css
+ * ------------------------------------------------------------------- */
+
+.home-content__counter {
+  padding-right: 6rem;
+}
+
+.home-content__counter .top {
+  margin-bottom: 1.5rem;
+  position: relative;
+  left: -1.5rem;
+}
+
+.home-content__counter .time {
+  color: #FFFFFF;
+  font-family: "metropolis-light", sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  display: inline-block;
+  padding-right: 1.5rem;
+  margin: 0 1.5rem;
+  min-width: 6rem;
+  position: relative;
+}
+
+.home-content__counter .time span {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.home-content__counter .days {
+  font-family: "metropolis-extralight", sans-serif;
+  font-size: 17.5rem;
+  letter-spacing: -.5rem;
+  padding-right: 6rem;
+  margin-top: -0.9rem;
+}
+
+.home-content__counter .days span {
+  display: inline-block;
+  font-family: "metropolis-regular", sans-serif;
+  letter-spacing: 0;
+  background-color: #5b4f96;
+  color: #FFFFFF;
+  padding: 9px 12px;
+  bottom: 1.3em;
+}
+
+.home-content__line {
+  display: block;
+  width: 1px;
+  height: 12rem;
+  background-color: #5b4f96;
+  position: absolute;
+  right: 84px;
+  bottom: 0;
+}
+
+.home-content__counter h3#counter-header::before {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 8rem;
+  background-color: #5b4f96;
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
 
 
 /* ------------------------------------------------------------------- 
@@ -2435,6 +2513,23 @@ html.no-csstransitions .home-content__main {
     width: 570px;
   }
 
+  .home-content__counter .time {
+    font-size: 2.8rem;
+    min-width: 5.8rem;
+  }
+
+  .home-content__counter .time span {
+    font-size: 1.8rem;
+  }
+
+  .home-content__counter .days {
+    font-size: 14.5rem;
+  }
+
+  .home-content__counter .days span {
+    padding: 6px 12px;
+  }
+
 }
 
 @media only screen and (max-width:1400px) {
@@ -2454,6 +2549,24 @@ html.no-csstransitions .home-content__main {
   .home-content__right {
     width: 550px;
     right: 40px;
+  }
+
+  .home-content__counter .time {
+    font-size: 2.4rem;
+    min-width: 5rem;
+  }
+
+  .home-content__counter .time span {
+    font-size: 1.7rem;
+  }
+
+  .home-content__counter .days {
+    font-size: 12rem;
+    padding-right: 5.5rem;
+  }
+
+  .home-content__counter .days span {
+    padding: 6px 10px;
   }
 
 }
@@ -2511,6 +2624,10 @@ html.no-csstransitions .home-content__main {
     width: 100%;
   }
 
+  .home-content__counter h3#counter-header::before {
+    display: 30px;
+  }
+
   .home-content__main {
     max-width: 600px;
     padding-bottom: 44rem;
@@ -2536,6 +2653,37 @@ html.no-csstransitions .home-content__main {
     margin-top: 0;
   }
 
+  .home-content__counter .time {
+    font-size: 2rem;
+    min-width: 4rem;
+  }
+
+  .home-content__counter .time span {
+    font-size: 1.6rem;
+  }
+
+  .home-content__counter .days {
+    font-size: 11rem;
+    padding-right: 5.5rem;
+  }
+
+}
+
+@media only screen and (max-width:1000px) {
+  
+  .home-content__counter {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .home-content__counter .top {
+    display: inline-block;
+    margin: 0;
+  }
+ 
 }
 
 @media only screen and (max-width:900px) {
@@ -2561,6 +2709,14 @@ html.no-csstransitions .home-content__main {
 
   .home-scroll {
     right: 3rem;
+  }
+
+  .home-content__counter {
+    padding-right: 15px;
+  }
+
+  .home-content__counter .days {
+    font-size: 9rem;
   }
 
 }
@@ -2590,10 +2746,24 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__social,
+  .home-social,
   .home-scroll {
     display: none;
   }
 
+  .home-content__counter .time {
+    font-size: 2rem;
+    min-width: 3rem;
+  }
+
+  .home-content__counter .time span {
+    font-size: 1.6rem;
+  }
+
+  .home-content__counter .days {
+    font-size: 8rem;
+    padding-right: 5.5rem;
+  }
 }
 
 @media only screen and (max-width:600px) {
@@ -2620,6 +2790,21 @@ html.no-csstransitions .home-content__main {
     margin-top: 4rem;
   }
 
+  .home-content__counter {
+    padding-right: 10px;
+  }
+
+  .home-content__counter .top {
+    display: block;
+    margin-bottom: 1.5rem;
+    left: 0;
+  }
+
+  .home-content__counter .days {
+    font-size: 10rem;
+    padding-right: 5.5rem;
+  }
+
 }
 
 @media only screen and (max-width:500px) {
@@ -2638,6 +2823,10 @@ html.no-csstransitions .home-content__main {
   .home-content__right {
     width: 360px;
     margin-top: -28rem;
+  }
+
+  .home-content__counter h3#counter-header::before {
+    display: none;
   }
 
 }
