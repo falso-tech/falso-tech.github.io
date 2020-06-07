@@ -348,7 +348,7 @@ dfn[title] {
 }
 
 mark {
-  background: #00f0bc;
+  background: #a79be3;
   color: #000000;
 }
 
@@ -610,13 +610,13 @@ form,
 
 /* dots jump */
 .dots-jump > div {
-  -webkit-animation: dots-jump 1.2s infinite ease;
-  animation: dots-jump 1.2s infinite ease;
-  animation-delay: 0.2s;
+  -webkit-animation: dots-jump 0.6s infinite ease;
+  animation: dots-jump 0.6s infinite ease;
+  animation-delay: 0.1s;
 }
 
 .dots-jump > div:nth-of-type(1) {
-  animation-delay: 0.4s;
+  animation-delay: 0.2s;
 }
 
 .dots-jump > div:nth-of-type(3) {
@@ -655,13 +655,13 @@ form,
 
 /* dots fade */
 .dots-fade > div {
-  -webkit-animation: dots-fade 1.6s infinite ease;
-  animation: dots-fade 1.6s infinite ease;
+  -webkit-animation: dots-fade 0.8s infinite ease;
+  animation: dots-fade 0.8s infinite ease;
   animation-delay: 0.4s;
 }
 
 .dots-fade > div:nth-of-type(1) {
-  animation-delay: 0.8s;
+  animation-delay: 0.6s;
 }
 
 .dots-fade > div:nth-of-type(3) {
@@ -700,8 +700,8 @@ form,
 
 /* dots pulse */
 .dots-pulse > div {
-  -webkit-animation: dots-pulse 1.2s infinite ease;
-  animation: dots-pulse 1.2s infinite ease;
+  -webkit-animation: dots-pulse 0.6s infinite ease;
+  animation: dots-pulse 0.6s infinite ease;
   animation-delay: 0.2s;
 }
 
@@ -2425,7 +2425,7 @@ html.ss-preload .home-content__main {
 }
 
 html.ss-loaded .home-content__main {
-  animation-duration: 2s;
+  animation-duration: 1s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
@@ -3062,7 +3062,7 @@ html.no-csstransitions .home-content__main {
   overflow: hidden;
   height: 62.4rem;
   margin-top: calc((62.4rem/2) * -1);
-  background-image: url(../images/video_bg.jpeg);
+  background-image: url(../images/demo-bg.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
