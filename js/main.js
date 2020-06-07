@@ -317,6 +317,30 @@
     });
 };
 
+var setMobileAlignments = function() {
+    var audio_img = `<a href='https://www.freepik.com/free-photos-vectors/music'>
+                <div class="item-feature__text">
+                        <img style="width: 100%" src="images/audio.jpeg" srcset="images/audio.jpeg 600w, 
+                        images/audio.jpeg 1400w, 
+                        images/audio.jpeg 2800w" sizes="(max-width: 2800px) 100vw, 2800px"
+                alt="App Screenshots">
+            </a>
+            </div>`
+    
+    var audio_content = `<br />
+                            <div class="item-feature__icon">
+                                <i class="fa fa-music"></i>
+                            </div>
+                            <div class="item-feature__text">
+                                <h3 class="item-title">Audio fluency in any language.</h3>
+                                <p>Struggling with translation for an international client or for a voice over for your buisness videos are a thing of the past. Maximises the potential of your video content by giving the audio it deserves, making it emotionally meaningful to more audiences all over the world.
+                                </p>
+                            </div>`;
+    $("#audio-image-container").html(audio_content);
+    $("#audio-content-container").html(audio_img);
+        
+};
+
 
    /* Initialize
     * ------------------------------------------------------ */
@@ -333,6 +357,13 @@
         ssBackToTop();
         ssAjaxChimp();
         ssFinalCountdown();
+        if ($("body").width() < 480) {
+            setMobileAlignments();
+        } else if ($("body").width() < 768) {
+            setMobileAlignments();
+        } else if ($("body").width() < 800) {
+            setMobileAlignments();
+        } 
 
     })();
 
