@@ -72,3 +72,4 @@ User-agent: YoudaoBot
 Disallow:
 User-agent: *
 Disallow: /
+sitemap: https://falso.tech/sitemap.xml
