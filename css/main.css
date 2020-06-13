@@ -1730,7 +1730,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 150px;
+  width: 180px;
   height: 38px;
 }
 
@@ -1741,7 +1741,8 @@ input::-moz-focus-inner {
 .header-nav-wrap {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
-  padding-left: 180px;
+  padding-left: 210px;
+  padding-top: 4px;
 }
 
 .header-nav-wrap .header-main-nav {
